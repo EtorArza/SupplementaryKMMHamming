@@ -1,4 +1,4 @@
-# Supplementary for Kernels MM Hamming
+# Supplementary for Kernels of MM Hamming
 Supplementary material for the paper "Kernels of Mallows Models under the Hamming Distance for solving the Quadratic Assignment Problem"
 
 ### Additional figures
