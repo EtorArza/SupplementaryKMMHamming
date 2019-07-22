@@ -7,4 +7,4 @@ The AdditionalFigures.pdf file contains the additional results of the experiment
 
 ### Reproducing the results
 
-Just run "bash all_instances_on_parallel.sh" in the terminal. This will compile the source and run the binary on parallel on all instances.
+Just run "bash all_instances_on_parallel.sh" in the terminal. This will compile the source and run the binary on parallel for all instances.
