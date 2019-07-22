@@ -3,7 +3,7 @@ Supplementary material for the paper "Kernels of Mallows Models under the Hammin
 
 ### Additional figures
 
-The .pdf file contains the additional results of the experiment on the fitness transition.
+The AdditionalFigures.pdf file contains the additional results of the experiment on the fitness transition.
 
 ### Reproducing the results
 
