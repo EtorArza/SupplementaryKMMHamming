@@ -8,3 +8,7 @@ The AdditionalFigures.pdf file contains the additional results of the experiment
 ### Reproducing the results
 
 Just run "bash all_instances_on_parallel.sh" in the terminal. This will compile the source and run the binary on parallel for all instances.
+
+### Execution time
+
+The execution time of all the compared algorithms is provided in the "time_algorithms.csv" file.
