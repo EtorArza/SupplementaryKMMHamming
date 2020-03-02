@@ -621,7 +621,15 @@ double HammingFunctions::expectation(double theta)
 		if (k < n_)
 			x_n_1 += aux; //pow (exp(theta )-1, k) / facts_[ k ];
 	}
-	return (double)(n_ * x_n - x_n_1 * expl(long_theta)) / x_n;
+	double expect = (double)(n_ - x_n_1 / x_n * expl(long_theta));
+
+
+	//cout << "exp, theta -> " << expect << ", " << theta << endl;
+	if (theta > 4.0 && isinf(expect))
+	{	
+		return 0.25;
+	}
+	return expect;
 }
 
 double HammingFunctions::f1dim(double x)

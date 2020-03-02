@@ -93,7 +93,7 @@ double KEDAMM::get_KEDAMM_theta()
 	assert(target_expectation > 0);
 	assert(target_expectation < n);
 	//print_variable("target_expc", target_expectation);
-	theta = get_the_inverse_of_a_func_with_bisection(0.25, 6.00, target_expectation, [&](double x) { return ham->expectation(x); });
+	theta = get_the_inverse_of_a_func_with_bisection(0.25, 8.00, target_expectation, [&](double x) { return ham->expectation(x); });
 	return theta;
 }
 
