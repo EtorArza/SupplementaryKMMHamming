@@ -13,6 +13,6 @@ Just run "bash all_instances_on_parallel.sh" in the terminal. This will compile 
 
 The execution time of all the compared algorithms is provided in the "time_algorithms.csv" file.
 
-### Execution time
+### Statistical analisys
 
-The file "why_BPA_instead_of_NHST.pdf" explains why we use BPA instead of NHST in our paper.
+The file "comparison_between_BPA_and_NHST.pdf" explains why we use BPA instead of NHST in our paper.
