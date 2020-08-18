@@ -21,7 +21,7 @@ The file "comparison_between_BPA_and_NHST.pdf" explains why we use BPA instead o
 
 ### The paper
 
-The open version of the article that explains the methodology and the experimentation is available at https://arxiv.org/abs/1910.08800
+The open version of the article is available at https://arxiv.org/abs/1910.08800
 
 If you use this code in your research or find our paper useful, please, consider citing our work:
 
